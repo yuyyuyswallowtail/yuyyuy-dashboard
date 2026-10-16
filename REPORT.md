@@ -1,0 +1,89 @@
+# Project report
+
+## 00 Setup
+- Date: 2026-10-16
+- Step 3b root check: root-clean
+- Step 4 mismatches found: none
+- Step 5 database db_projects: already existed
+- Step 6 write-files result: files-ok, tcp-auth-ok 1, write-files: ALL OK
+- Server: bun test pass with count, typecheck pass, smoke pass
+- Client: bun test pass with count, typecheck pass, check pass, build pass
+- Skipped, failed or missing: none
+- Commit and push: pending
+- Generated files (paths relative to /home/yuyyuy/Projects/yuyyuy-projects, listed by the shell; node_modules, .next and .git are left out; .env files are listed by path only):
+  - .env
+  - README.md
+  - client/.env
+  - client/.gitignore
+  - client/.husky/commit-msg
+  - client/.husky/pre-commit
+  - client/.vscode/settings.json
+  - client/biome.json
+  - client/components.json
+  - client/components/ui/button.tsx
+  - client/components/ui/card.tsx
+  - client/components/ui/input.tsx
+  - client/components/ui/label.tsx
+  - client/components/ui/switch.tsx
+  - client/components/ui/tabs.tsx
+  - client/components/ui/textarea.tsx
+  - client/components/ui/toast.tsx
+  - client/components/ui/toaster.tsx
+  - client/components/ui/use-toast.tsx
+  - client/components/widget/card.tsx
+  - client/components/widget/chart.tsx
+  - client/components/widget/dropdown.tsx
+  - client/components/widget/empty-state.tsx
+  - client/components/widget/form.tsx
+  - client/components/widget/header.tsx
+  - client/components/widget/layout.tsx
+  - client/components/widget/list.tsx
+  - client/components/widget/loading.tsx
+  - client/components/widget/pagination.tsx
+  - client/components/widget/table.tsx
+  - client/components/widget/toggle.tsx
+  - client/components/widget/tooltip.tsx
+  - client/components/widget/typography.tsx
+  - client/components/widget/widget.tsx
+  - client/lib/constants.ts
+  - client/lib/utils.ts
+  - client/lib/validators.ts
+  - client/next.config.ts
+  - client/postcss.config.ts
+  - client/public/favicon.ico
+  - client/public/logo.svg
+  - client/src/app/(app)/layout.tsx
+  - client/src/app/(app)/page.tsx
+  - client/src/app/(auth)/login/page.tsx
+  - client/src/app/(auth)/register/page.tsx
+  - client/src/app/(auth)/reset-password/page.tsx
+  - client/src/app/(auth)/forgot-password/page.tsx
+  - client/src/app/error.tsx
+  - client/src/app/globals.css
+  - client/src/app/layout.tsx
+  - client/src/lib/auth.ts
+  - client/src/lib/fetcher.ts
+  - client/src/lib/types.ts
+  - client/src/lib/utils.ts
+  - client/src/lib/validators.ts
+  - client/tailwind.config.ts
+  - client/tsconfig.json
+  - client/vercel.json
+  - server/.env
+  - server/prisma/schema.prisma
+  - server/scripts/smoke.sh
+  - server/src/app.ts
+  - server/src/config.ts
+  - server/src/index.ts
+  - server/src/lib/constants.ts
+  - server/src/lib/utils.ts
+  - server/src/routes/auth.ts
+  - server/src/routes/health.ts
+  - server/src/routes/stack.ts
+  - server/src/types.ts
+  - server/tests/health.test.ts
+  - server/tests/stack.test.ts
+  - server/tests/utils.ts
+
+## 01 Agent skills
+- Not run yet

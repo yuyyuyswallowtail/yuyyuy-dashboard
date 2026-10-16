@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@nodewave/prisma-ezfilter": "^0.2.1",
+    "@prisma/adapter-pg": "^7.10.0",
+    "@prisma/client": "7",
+    "dotenv": "^18.0.0",
+    "hono": "^4.13.8",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/pg": "^8.23.1",
+    "prisma": "7",
+    "typescript": "^7.0.2"
+  },
+  "name": "yuyyuy-server",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "smoke": "bash scripts/smoke.sh",
+    "db:seed": "bun run prisma/seed.ts"
+  },
+  "private": true
+}
