@@ -9,7 +9,7 @@
 - Server: bun test pass with count, typecheck pass, smoke pass
 - Client: bun test pass with count, typecheck pass, check pass, build pass
 - Skipped, failed or missing: none
-- Commit and push: pending
+- Commit and push: d7a991a pushed to origin/main
 - Generated files (paths relative to /home/yuyyuy/Projects/yuyyuy-projects, listed by the shell; node_modules, .next and .git are left out; .env files are listed by path only):
   - .env
   - README.md
